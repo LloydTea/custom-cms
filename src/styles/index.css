@@ -1,0 +1,87 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  min-width: 100%;
+
+  /* color-scheme: light dark; */
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0d192e;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+
+/* Backend Layout Styling */
+.wholeContent{
+  display: flex;
+}
+.sidebar{
+  width: 200px;
+  max-width: 200px;
+  min-height: 100vh;
+  display: inline-block;
+}
+
+.maincontent{
+  min-width: calc(100% - 200px);
+  background: var(--bs-light-bg-subtle);
+}
+a.cms-nav{
+  color: white;
+}
+
+a.cms-nav:hover{
+  color: white;
+  background: var(--bs-primary);
+}
+
+.profile-container{
+  min-height: 200px;
+}
+
+.p-picture{
+  min-height: 150px;
+  min-width: 150px;
+}
+
+.spacing-200{
+  min-height: 170px;
+}
+
+.cms-img {
+  height: 167.05px !important;
+  object-fit: cover;
+  width: 100%;
+}
+
+.content-editor{
+  min-height: 500px;
+}
+.ck-editor__editable {
+  min-height: 500px; 
+}
+
+.img-preview {
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 200px;
+}
+
+.post-list-img {
+  max-height: 100px !important;
+  width: 150px;
+  object-fit: cover;
+}
